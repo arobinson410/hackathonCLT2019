@@ -1,0 +1,28 @@
+﻿
+ Field                       		Type
+
+ year                       		 int(11)                              
+ state_abbr                	 	 varchar(2)                        
+ state_desc                 		 varchar(64)                      
+ city_name                  	 varchar(64)                      
+ geo_level                  		 varchar(64)                      
+ data_src                   		 varchar(64)                      
+ category                   		 varchar(64)                      
+ unique_id                  	 	 int(11)                              
+ measure                    		 varchar(256)                    
+ data_value_unit            	 varchar(32)                      
+ data_value_type_id         	 varchar(64)                      
+ data_value_type            	 varchar(64)                      
+ data_value                 	 	varchar(128)                     
+ low_confidence_limit       	 varchar(128)                    
+ high_confidence_limit      	 varchar(128)                    
+ data_value_footnote_symb 	 varchar(16)                      
+ data_value_footnote        	 varchar(16)                      
+ pop_cont                   	 	 int(11)                              
+ geolocation                	 varchar(64)                      
+ category_id                	 varchar(64)                      
+ measure_id                 	 varchar(64)                      
+ city_fips                  		 varchar(64)                      
+ tract_fips                 		 varchar(64)                      
+ short_question_text        	 varchar(128)                    
+
